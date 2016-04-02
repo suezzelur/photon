@@ -65,6 +65,9 @@ chroot $TEMP_CHROOT bash -c \
     tdnf install -y findutils ; \
     tdnf install -y vim ; \
     tdnf install -y grep ; \
+    tdnf install -y dracut ; \
+    tdnf install -y ostree ; \
+    tdnf install -y rpm-ostree ; \
     tdnf install -y which ;"
 
 
